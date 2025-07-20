@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Laptop Store
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#cart">Cart</a>    
+            </div>
+        </nav>
+    </header>
+
+    <section class="Hero">
+        <h1>Welcome to E-shop</h1>
+        <p>Discover the best products at unbeatable prices!</p>
+        <button class="shop-now">Shop Now</button>
+    </section>
+    
+    <section class="products" id="products">
+        <div class="product-card">
+            <img src="Laptop 1.jpeg" alt="Laptop 1">
+            <div class="product-info">
+                <h2>Macbook M1</h2>
+                <p>Rs. 64,999</p>
+                <button onclick="addToCart('Macbook M1', 64999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Laptop2.jpeg" alt="Laptop 2">
+            <div class="product-info">
+                <h2>Asus</h2>
+                <p>Rs. 1,29,999</p>
+                <button onclick="addToCart('Asus', 129999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Laptop3.jpeg" alt="Laptop 3">
+            <div class="product-info">
+                <h2>Hp</h2>
+                <p>Rs. 84,999</p>
+                <button onclick="addToCart('Hp', 84999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Laptop4.jpeg" alt="Laptop 4">
+            <div class="product-info">
+                <h2>Macbook Pro M1</h2>
+                <p>Rs. 1,49,999</p>
+                <button onclick="addToCart('Macbook Pro M1', 149999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Laptop5.jpeg" alt="Laptop 5">
+            <div class="product-info">
+                <h2>Dell</h2>
+                <p>Rs. 1,69,999</p>
+                <button onclick="addToCart('Dell', 169999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Laptop6.jpeg" alt="Laptop 6">
+            <div class="product-info">
+                <h2>Macbook Air M2</h2>
+                <p>Rs. 1,09,999</p>
+                <button onclick="addToCart('Macbook Air M2', 109999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Laptop7.jpeg" alt="Laptop 7">
+            <div class="product-info">
+                <h2>Hp 14s fq-1029au</h2>
+                <p>Rs. 1,89,999</p>
+                <button onclick="addToCart('Hp 14s fq-1029au', 189999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="Laptop8.jpeg" alt="Laptop 8">
+            <div class="product-info">
+                <h2>Lenovo</h2>
+                <p>Rs. 1,19,999</p>
+                <button onclick="addToCart('Lenovo', 119999)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer-section">
+        <h4>Customer Service</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Returns</a>
+        <a href="#">FAQs</a>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 E-Shop. All rights reserved.
+    </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
